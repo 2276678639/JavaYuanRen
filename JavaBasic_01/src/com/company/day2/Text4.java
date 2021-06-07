@@ -2,14 +2,11 @@ package com.company.day2;
 
 import java.util.Scanner;
 
-public class Text3 {
-    /**
-     * 手动输入两个数，求这两个数中所有的偶数，求偶数的个数
-     * @param args
-     */
-
-
+public class Text4 {
     public static void main(String[] args) {
+        /**
+         * 手动输入两个数，求两个数中所有的奇数和
+         */
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("请输入第一个数");
@@ -26,13 +23,14 @@ public class Text3 {
         }
         int i=0;
         while (min<max) {
-            if (min % 2 == 0) {
-                System.out.println("偶数为：" + min);
-                i++;
+            if (min % 2-1 == 0) {
+                System.out.println("奇数为：" + min);
+                i=i+min;
             }
 
             min++;
         }
-        System.out.println("偶数的个数为"+i);
+        System.out.println("奇数的和为"+i);
+
     }
 }
