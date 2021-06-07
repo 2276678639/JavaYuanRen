@@ -20,71 +20,71 @@ public class Text2 {
                     break;
                 case 1:
                     day = day;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 2:
                     if (day < 29) {
                         day = day + 31;
-                        System.out.println(day);
+                        System.out.println("这一年过去了"+day+"天");
                     } else {
                         System.err.println("您输入的不是一个有效日期");
                     }
                     break;
                 case 3:
                     day = day + 30 * 2;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 4:
                     if (day < 29) {
                         day = day + 30 * 3 + 1;
-                        System.out.println(day);
+                        System.out.println("这一年过去了"+day+"天");
                     } else {
                         System.err.println("您输入的不是一个有效日期");
                     }
                     break;
                 case 5:
                     day = day + 30 * 4 + 1;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 6:
                     if (day < 29) {
                         day = day + 30 * 5 + 2;
-                        System.out.println(day);
+                        System.out.println("这一年过去了"+day+"天");
                     } else {
                         System.err.println("您输入的不是一个有效日期");
                     }
                     break;
                 case 7:
                     day = day + 30 * 6 + 2;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 8:
                     day = day + 30 * 7 + 3;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 9:
                     if (day < 29) {
                         day = day + 30 * 8 + 4;
-                        System.out.println(day);
+                        System.out.println("这一年过去了"+day+"天");
                     } else {
                         System.err.println("您输入的不是一个有效日期");
                     }
                     break;
                 case 10:
                     day = day + 30 * 9 + 4;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
                 case 11:
                     if (day < 29) {
                         day = day + 30 * 10 + 5;
-                        System.out.println(day);
+                        System.out.println("这一年过去了"+day+"天");
                     } else {
                         System.err.println("您输入的不是一个有效日期");
                     }
                     break;
                 case 12:
                     day = day + 30 * 11 + 5;
-                    System.out.println(day);
+                    System.out.println("这一年过去了"+day+"天");
                     break;
             }
         }
