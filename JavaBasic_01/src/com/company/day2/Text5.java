@@ -7,15 +7,13 @@ public class Text5 {
         /**
          * 手动输入三个值，求最大值
          */
-        Scanner scanner1 = new Scanner(System.in);
-        Scanner scanner2 = new Scanner(System.in);
-        Scanner scanner3 = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("请输入第一个数：");
-        int num1=scanner1.nextInt();
+        int num1=scanner.nextInt();
         System.out.println("请输入第二个数：");
-        int num2=scanner2.nextInt();
+        int num2=scanner.nextInt();
         System.out.println("请输入第三个数：");
-        int num3=scanner3.nextInt();
+        int num3=scanner.nextInt();
         int max=num1;
         if(max<num2){
             max=num2;

@@ -19,10 +19,7 @@ public class Text6 {
             }
         } while
         (num >= 0 && num <= 9);
-
-
         System.err.println("您输入的数据过大");
-
         System.out.println("偶数的数量为：" + num1);
     }
 }
