@@ -9,6 +9,7 @@ public class Text6 {
          */
         int num = 0;
         int num1 = 0;
+        int count=0;
         do {
             Scanner scanner1 = new Scanner(System.in);
             System.out.println("请输入一个数字");
@@ -17,9 +18,10 @@ public class Text6 {
             if (i % 2 == 0) {
                 num1++;
             }
+            count++;
         } while
         (num >= 0 && num <= 9);
         System.err.println("您输入的数据过大");
-        System.out.println("偶数的数量为：" + num1);
+        System.out.println("您一共输入了"+count+"个数，其中偶数的数量为：" + num1);
     }
 }
