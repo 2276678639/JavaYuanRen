@@ -11,7 +11,6 @@ public class Text3 {
 
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);
-        Scanner scanner2 = new Scanner(System.in);
         System.out.println("请输入第一个数");
         int num1=scanner1.nextInt();
         System.out.println("请输入第二股数");
@@ -30,7 +29,6 @@ public class Text3 {
                 System.out.println("偶数为：" + min);
                 i++;
             }
-
             min++;
         }
         System.out.println("偶数的个数为"+i);
